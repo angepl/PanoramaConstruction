@@ -16,7 +16,7 @@ This is a python project using OpenCV to create a panorama that consists of five
 - Repeat all the above using this first part (`panorama`) as a reference image, and trying to transform `imgs[0]` and `imgs[4]` to stitch them to it.
 
 ### Notice
-In the result you may notice some distortion on the edges where every pair of images is being stiched. This is because we project the panorama on a plane. It can be fixed by trying to project it on another surface, such as a cylinder or a sphere.
+In the result you may notice some distortion on the edges where every pair of images is being stitched. This is because we project the panorama on a plane. It can be fixed by trying to project it on another surface, such as a cylinder or a sphere.
 
 ## Information
 - You can find information about all the OpenCV methods that are used in the project [here](https://docs.opencv.org/4.x/).
